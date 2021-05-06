@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 
-country=input('enter the counrty name')
+country=input('Enter the country name')
 #Total confirmed cases
 df_confirmed=pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
 df_confirmed_country=df_confirmed[df_confirmed["Country/Region"]== country]
