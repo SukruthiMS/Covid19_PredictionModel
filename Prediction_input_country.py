@@ -199,6 +199,10 @@ df_forecast.plot(title="Predictions for next 7 days")
 
 
 # In[ ]:
+import sklearn
+import joblib
+
+joblib.dump(df_forecast,'Prediction_model.ml')
 
 
 
